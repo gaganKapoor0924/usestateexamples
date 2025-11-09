@@ -4,11 +4,12 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Counter from "./Counter";
 import ToggleButton from "./ToggleButton";
+import ListPagination from "./ListPagination";
 
 function App() {
   return (
     <>
-      <ToggleButton />
+      <ListPagination />
     </>
   );
 }
